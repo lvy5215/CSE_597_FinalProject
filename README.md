@@ -63,6 +63,10 @@ For training ComposeAE model on Fashion200k dataset run the following command:
 python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/  --model=composeAE --loss=batch_based_classification --learning_rate_decay_frequency=50000 --num_iters=160000 --use_bert True --use_complete_text_query True --weight_decay=5e-5 --comment=mitstates_composeAE --log_dir ../logs/mitstates/
 ```
 
+* use_bert should always be true for ComposeAE
+* Checkpoints will be saved in the log files
+* To evaluate the model from the latest checkpoint, give the checkpoint path and set --test_only to True
+
 ## Running with Colab
 
 Download the MITstates dataset and place it in /data/mitstates and run the colab notebook. All the individual files are transformed into colab cells. In the last cell(main file), all the parameters are defaulted to run composeAE with optimal parameters.
