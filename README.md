@@ -13,7 +13,7 @@ In information retrieval, the user seeks information from a retrieval system by 
 
 ## Teaser Figure 
 
-<img align="left" src="https://github.com/ecom-research/ComposeAE/blob/master/Teaser_v3.jpg" width="400">
+<img align="left" src="https://github.com/ecom-research/ComposeAE/blob/master/Teaser_v3.jpg" width="400" height = "340">
 
 Advanced information retrieval systems should enable the users in expressing the concept in their mind by allowing a multi-modal query.
 
