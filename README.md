@@ -71,19 +71,6 @@ python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/ 
 
 Download the MITstates dataset and place it in /data/mitstates and run the colab notebook. All the individual files are transformed into colab cells. In the last cell(main file), all the parameters are defaulted to run composeAE with optimal parameters.
 
-### Citation
-If you find this code useful in your research then please cite
-```
-@InProceedings{Anwaar_2021_WACV,
-    author    = {Anwaar, Muhammad Umer and Labintcev, Egor and Kleinsteuber, Martin},
-    title     = {Compositional Learning of Image-Text Query for Image Retrieval},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
-    year      = {2021},
-    pages     = {1140-1149}
-}
-```
-
 
 
 
