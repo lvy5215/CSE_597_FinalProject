@@ -64,12 +64,12 @@ python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/ 
 ```
 
 * use_bert should always be true for ComposeAE
-* Checkpoints will be saved in the log files
+* Checkpoints will be saved in the log files folders
 * To evaluate the model from the latest checkpoint, give the checkpoint path and set --test_only to True
 
 ## Running with Colab
 
-Download the MITstates dataset and place it in /data/mitstates and run the colab notebook. All the individual files are transformed into colab cells. In the last cell(main file), all the parameters are defaulted to run composeAE with optimal parameters.
+ All the individual files are transformed into colab cells. Data is downloaded directly in one of the cells and aligned in the folder structure. In the last cell(main file), all the parameters are defaulted to run composeAE with optimal parameters.
 
 
 
