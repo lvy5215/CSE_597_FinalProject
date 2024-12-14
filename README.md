@@ -30,11 +30,6 @@ of source image and text query closer to the target images. We also propose a ro
 on the optimization problem. 
 ![Method](ComposeNet_final.jpg)
 
-## Results
-Our approach is able to outperform the state-of-the-art method TIRG on three benchmark datasets, namely: MIT-States, Fashion200k and Fashion IQ. 
-Some qualitative retrieval results on FashionIQ dataset are shown below:
-![Qual](FIQ_Retrieval.jpg)
-
 ## Requirements and Installation
 * Python 3.6
 * [PyTorch](http://pytorch.org/) 1.2.0
@@ -70,7 +65,7 @@ python -W ignore  main.py --dataset=mitstates --dataset_path=../data/mitstates/ 
 
 ## Running with Colab
 
-Download the MITstates dataset and place it in /data/mitstates and run all the cells. All the individual files are transformed into colab cells. In the last cell(main file), all the parameters are defaulted to run composeAE with optimal parameters.
+Download the MITstates dataset and place it in /data/mitstates and run the colab notebook. All the individual files are transformed into colab cells. In the last cell(main file), all the parameters are defaulted to run composeAE with optimal parameters.
 
 ### Citation
 If you find this code useful in your research then please cite
